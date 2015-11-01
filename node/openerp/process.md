@@ -43,8 +43,7 @@
 
 10. 安装nodejs——源码方式
 
-	<pre>curl -o node-v4.2.1.tar.gz https://nodejs.org/dist/v4.2.1/node-v4.2.1.tar.gz<br/>tar zxvf node-v4.2.1.tar.gz<br/>cd node-v4.2.1<br/>./configure<br/>make && make install<br/>npm install -g less less-plugin-clean-css<br/>
-	</pre>
+	<pre>curl -o node-v4.2.1.tar.gz https://nodejs.org/dist/v4.2.1/node-v4.2.1.tar.gz<br/>tar zxvf node-v4.2.1.tar.gz<br/>cd node-v4.2.1<br/>./configure<br/>make && make install<br/>npm install -g less less-plugin-clean-css<br/></pre>
 
 11. 开机启动openerp服务——docker方式，其他可用init.d
 	
@@ -68,6 +67,6 @@
 	
 	<pre>dpkg-reconfigure tzdata</pre>
 
-16. 重启系统
+16. 重启系统后访问http://域名:8069
 
 	<pre>reboot</pre>
