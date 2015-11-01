@@ -1,1 +1,1 @@
-# openerp——安装结果
+# openerp——安装总结
