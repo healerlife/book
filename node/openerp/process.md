@@ -62,6 +62,7 @@
 
 	进入开发模式，在系统参数中添加以下键值对,在网上有许多其他的方式，但是那都是旧版本的，以下版本才是真实靠谱的。
 	<pre>ir_attachment.location=db</pre>
+	> 此外也建议修改源代码 根目录/openerp/addons/base/ir/ir_attachment.py 下的 _storage,将默认存储方式file修改成db。
 
 15. 修改时区
 	
